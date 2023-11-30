@@ -1,0 +1,65 @@
+h1 {
+    font-size: 2.5em;
+ 
+}
+    
+h2 {
+font-size: 1.5em;
+
+}
+
+img {
+    width: 200px; 
+    margin: 20px;
+ 
+
+}
+
+table {
+    background-color: bisque;
+    width: 50%;
+    border: 1px solid red;
+    border-collapse: collapse;
+  
+}
+
+ td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+ th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+.T1 {
+    text-align: left;
+    background-color: aqua;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    
+
+    border: 1px solid black;
+    border-radius: 8px; 
+    padding: 30px;
+    width: 30%;
+    margin: auto;
+    
+
+    
+}
+
+input ,select{
+    padding: 8px;
+    border-radius: 4px;
+}
+
+label {
+    margin-top: 4px;
+}
+

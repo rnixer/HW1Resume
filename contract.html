@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <hr>
+    <a href="./index.html">Home |</a>
+    <a href="./Education.html">Education |</a>
+    <a href="./work.html">Work Experience |</a>
+    <a href="./contract.html">Contract |</a>
+    <hr>
+    <h1 style="text-align: center;">Contract Me</h1>
+
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi">
+        <p>Enter your info..</p>
+        <label for="Name">Your Name</label>
+        <input type="text" name="Name" id="Name"  placeholder="Enter your Name...">
+        <label for="E-mail">Your E-mail</label>
+        <input type="text" name="E-mail" id="E-mail"  placeholder="Enter your E-mail...">
+
+        <label for="Gender">Gender</label>
+        <select id="Gender" name="Gender">
+            <option disabled selected>Select...</option>
+            <option id="male" value="male">Male</option>
+            <option id="female" value="female">Female</option>
+
+        </select>
+        <label for="message">Message </label>
+            <textarea name="message" id="" cols="30%" rows="10"></textarea>
+       
+
+        <input type="submit"  >
+        <input type="reset" value="Clear">
+
+    </form>
+    
+
+</body>
+</html>
